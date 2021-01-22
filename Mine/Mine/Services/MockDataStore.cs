@@ -14,15 +14,15 @@ namespace Mine.Services
         {
             items = new List<ItemModel>()
             {
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Seattle", Description="The best city in the world.", Value=10 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Istanbul", Description="Also the best city of the world.", Value=10 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "San Francisco", Description="Not bad, reasonably fun city.", Value=8 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "New Haven", Description="Youldn't want to stay there for too long.", Value=5 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "New York City", Description="Almost the best city in the world.", Value=9 },
+                new ItemModel { Id = Guid.NewGuid().ToString(), Text = "Chicago", Description="I was always cold when I visited.", Value=7 }
             };
         }
-
+        
         public async Task<bool> AddItemAsync(ItemModel item)
         {
             items.Add(item);
