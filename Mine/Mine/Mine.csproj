@@ -20,6 +20,9 @@
       <SubType>Code</SubType>
       <DependentUpon>ItemCreatePage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\Items\ItemReadPage.xaml.cs">
+      <DependentUpon>ItemReadPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
