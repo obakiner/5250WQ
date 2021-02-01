@@ -9,7 +9,7 @@
              x:Name="Index">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add" Clicked="AddItem_Clicked" IconImageSource="icon_read.png"/>
+        <ToolbarItem Text="Add" Clicked="AddItem_Clicked" IconImageSource="icon_add.png"/>
     </ContentPage.ToolbarItems>
 
     <StackLayout>
