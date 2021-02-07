@@ -22,6 +22,7 @@ namespace UnitTests.Models
             Assert.IsNotNull(result);
         }
 
+        [Test]
         public void HomeMenuItem_Set_Get_Valid_Default_Should_Pass()
         {
             // Arrange
